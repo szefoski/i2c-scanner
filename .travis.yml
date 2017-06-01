@@ -1,0 +1,5 @@
+language: c
+sudo: required
+script:
+    - gcc i2c_scanner.c -std=c11 -o i2c_scanner
+    - gcc --version
