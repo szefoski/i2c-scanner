@@ -1,5 +1,5 @@
 language: c
 sudo: required
+compiler: gcc
 script:
     - gcc i2c_scanner.c -std=c99 -o i2c_scanner
-    - gcc --version
